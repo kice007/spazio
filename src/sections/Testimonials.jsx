@@ -11,7 +11,7 @@ const TESTIMONIALS = [
   {
     brand: 'MERIDIA',
     quote: 'Leur souci du détail est remarquable.',
-    body: 'Spazio a transformé notre maison en un espace chaleureux et intemporel qui reflète parfaitement notre mode de vie. Dès la première consultation, chaque détail a semblé pensé et réfléchi. Je recommande vivement.',
+    body: 'Alma a transformé notre maison en un espace chaleureux et intemporel qui nous ressemble. Chaque pièce a été choisie avec soin et le résultat dépasse nos attentes. Je recommande vivement.',
     author: 'Awa Bamba',
     role: 'Propriétaire · Cocody, Abidjan',
     img: IMG.test,
@@ -19,7 +19,7 @@ const TESTIMONIALS = [
   {
     brand: 'ATELIER NORD',
     quote: 'Une équipe à l’écoute et inspirée.',
-    body: 'Nous cherchions à repenser entièrement notre restaurant sans en trahir l’âme. Spazio a su marier caractère et fonctionnalité avec une élégance rare. Nos clients ressentent la différence dès qu’ils franchissent la porte.',
+    body: 'Nous cherchions à repenser entièrement notre restaurant sans en trahir l’âme. Alma a su marier caractère et fonctionnalité avec une élégance rare. Nos clients ressentent la différence dès qu’ils franchissent la porte.',
     author: 'Koffi N’Guessan',
     role: 'Restaurateur · Plateau, Abidjan',
     img: IMG.projBig,
@@ -27,7 +27,7 @@ const TESTIMONIALS = [
   {
     brand: 'VILLA ODAYA',
     quote: 'Un résultat au-delà de nos attentes.',
-    body: 'De la conception au moindre choix de matière, tout a été mené avec rigueur et sensibilité. Le studio a compris notre vision mieux que nous-mêmes et l’a portée à un niveau que nous n’imaginions pas.',
+    body: 'De la conception au moindre choix de matière, tout a été mené avec rigueur et sensibilité. L’équipe a compris notre vision mieux que nous-mêmes et l’a portée à un niveau que nous n’imaginions pas.',
     author: 'Fatou Diallo',
     role: 'Architecte · Marcory, Abidjan',
     img: IMG.svc3,
@@ -90,7 +90,7 @@ export default function Testimonials() {
         <Reveal className="flex flex-col items-center gap-5 text-center">
           <p className="font-mono text-[15px] text-muted">Témoignages</p>
           <h2 className="max-w-[900px] font-serif text-[30px] font-medium uppercase leading-[1.15] text-ink lg:text-[44px]">
-            Des témoignages de personnes pour qui nous avons eu le plaisir de créer
+            Ce que disent celles et ceux qui ont sublimé leur intérieur avec Alma
           </h2>
         </Reveal>
       </div>

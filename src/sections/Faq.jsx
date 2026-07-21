@@ -5,24 +5,24 @@ import { ArrowDown, ArrowUp } from '../components/Icons'
 
 const FAQS = [
   [
-    'Quels services Spazio propose-t-il ?',
-    "Nous proposons des solutions complètes d'architecture et de design d'intérieur, incluant l'aménagement de l'espace, l'élaboration du concept, la sélection des matériaux, la gestion de projet et l'installation.",
+    'Que propose Alma Concept Store ?',
+    "Une sélection de mobilier, décoration, luminaires et objets uniques, ainsi qu'un accompagnement pour composer et harmoniser votre intérieur.",
   ],
   [
-    'Comment fonctionne le processus de conception ?',
-    "Notre processus, structuré mais flexible, va de la découverte et la consultation à la conception et au développement, jusqu'à l'exécution et la livraison finale.",
+    'Comment se passe une visite en boutique ?',
+    'Nous vous accueillons en showroom pour découvrir nos collections, échanger sur votre projet et vous conseiller les pièces qui subliment votre espace.',
   ],
   [
-    'Combien de temps dure un projet type ?',
-    "Les délais dépendent de l'ampleur du projet — la plupart des projets résidentiels s'étendent de quelques semaines à plusieurs mois, définis ensemble lors de la consultation.",
+    'Proposez-vous la livraison et l’installation ?',
+    'Oui, nous livrons et installons vos pièces à Abidjan pour un intérieur prêt à vivre, dans les meilleurs délais.',
   ],
   [
-    'Pouvez-vous travailler avec mes meubles ou ma décoration existants ?',
-    'Absolument. Nous aimons associer vos pièces existantes à de nouveaux éléments pour créer un ensemble cohérent et intemporel.',
+    'Puis-je associer vos pièces à ma décoration existante ?',
+    'Absolument. Nous aimons associer nos pièces à votre décoration existante pour créer un ensemble cohérent et intemporel.',
   ],
   [
-    'Quelle est votre structure tarifaire ?',
-    'Nos tarifs sont adaptés à chaque projet. Après une première consultation, nous fournissons une proposition claire et détaillée, sans surprises.',
+    'Quelle est votre gamme de prix ?',
+    'Nous proposons une gamme mid-to-premium. Chaque pièce est présentée avec un prix clair, sans surprise.',
   ],
 ]
 
@@ -50,7 +50,7 @@ export default function Faq() {
                   className="flex w-full items-center justify-between gap-6 py-6 text-left"
                 >
                   <span className="font-sans text-[18px] font-medium text-cream lg:text-[20px]">{q}</span>
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#26221d] text-cream">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#582a2f] text-cream">
                     {isOpen ? <ArrowUp size={16} /> : <ArrowDown size={16} />}
                   </span>
                 </button>

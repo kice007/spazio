@@ -16,7 +16,7 @@ export default function Blog() {
         <SectionHead
           dark
           eyebrow="Notre blog"
-          heading="EXPLOREZ LES IDEES ET LES TENDANCES QUI INSPIRENT LES ESPACES QUE NOUS CREONS"
+          heading="EXPLOREZ LES IDÉES ET LES TENDANCES QUI INSPIRENT NOS COLLECTIONS"
           width="lg:max-w-[848px]"
         />
 

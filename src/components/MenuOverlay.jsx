@@ -3,12 +3,12 @@ import { X } from './Icons'
 import { IMG } from '../images'
 
 const EASE = [0.16, 1, 0.3, 1]
-const LINKS = ['ACCEUIL', 'A PROPOS', 'SERVICES', 'PROJETS', 'BLOG', 'BOUTIQUE', 'CONTACT']
+const LINKS = ['acceuil', 'a propos', 'collections', 'inspiration', 'blog', 'contact']
 const MENU_IMAGES = [IMG.menu1, IMG.menu2, IMG.menu3, IMG.menu4]
 const CONTACT = [
-  ['Email', ['hello@spazio.ci', 'support@spazio.ci']],
+  ['Email', ['hello@alma.ci', 'support@alma.ci']],
   ['Phone', ['+225 27 22 00 00', '+225 07 00 00 00']],
-  ['Location', ['Cocody, Rue des Jardins', 'Abidjan, Côte d’Ivoire']],
+  ['Location', ['Angré, Cocody', 'Abidjan, Côte d’Ivoire']],
   ['Schedule', ['Mon – Fri: 9:00 – 18:00', 'Sat: 10:00 – 15:00', 'Sun: Closed']],
 ]
 
@@ -83,10 +83,10 @@ export default function MenuOverlay({ open, onClose }) {
               transition={{ delay: 0.3, duration: 0.6, ease: EASE }}
               className="col-span-2 mt-6 flex flex-col gap-7 lg:col-span-1 lg:mt-0"
             >
-              <p className="font-serif text-[38px] text-ink">SPAZIO</p>
+              <p className="font-serif text-[38px] text-ink">alma</p>
               {CONTACT.map(([label, vals]) => (
                 <div key={label} className="flex gap-5">
-                  <span className="w-[68px] shrink-0 pt-0.5 font-mono text-[13px] text-muted">{label}</span>
+                  <span className="w-[68px] shrink-0 pt-0.5 font-mono text-[13px] text-[#ad9d8e]">{label}</span>
                   <div className="flex flex-col gap-1">
                     {vals.map((v) => (
                       <span key={v} className="font-sans text-[15px] text-ink">

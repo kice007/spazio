@@ -38,15 +38,15 @@
 }
 
 @theme {
-  --color-black: #0c0b0a;
+  --color-black: #70383d;
   --color-white: #fbfaf8;
   --color-ink: #16130f;
   --color-cream: #f2ede6;
   --color-muted: #7a736c;
   --color-muted2: #a8a099;
   --color-line: #e4dfd8;
-  --color-linedark: #2a2620;
-  --color-accent: #9dbfe6;
+  --color-linedark: #8f5a5f;
+  --color-accent: #c9a46a;
 
   --font-serif: 'Kenao', 'Times New Roman', serif;
   --font-sans: 'Satoshi', ui-sans-serif, system-ui, sans-serif;

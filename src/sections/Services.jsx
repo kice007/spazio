@@ -6,11 +6,11 @@ import { ArrowRight } from '../components/Icons'
 import { IMG } from '../images'
 
 const SERVICES = [
-  { num: 'Service 01', lines: ['RESIDENTIAL', 'DESIGN'], screenFirst: true, img: IMG.svc1, tl: '25.4%', tt: 68, il: '36.8%', it: 20, iw: '44.6%', ih: 480, bh: 508 },
-  { num: 'Service 02', lines: ['COMMERCIAL', 'DESIGN'], img: IMG.svc2, tl: '42.9%', tt: 96, il: '53.9%', it: 21, iw: '39.8%', ih: 430, bh: 461 },
-  { num: 'Service 03', lines: ['TURNKEY', 'EXECUTION'], img: IMG.svc3, tl: '14.9%', tt: 50, il: '22.4%', it: 13, iw: '39.4%', ih: 400, bh: 426 },
-  { num: 'Service 04', lines: ['3D WALL & FLOOR', 'DESIGN'], img: IMG.svc4, tl: '36.5%', tt: 43, il: '46%', it: 24, iw: '33.5%', ih: 340, bh: 396 },
-  { num: 'Service 05', lines: ['SPACE PLANNING'], img: IMG.svc5, tl: '16.4%', tt: 98, il: '29.7%', it: 0, iw: '33.7%', ih: 420, bh: 447 },
+  { num: 'Collection 01', lines: ['MOBILIER', '& DESIGN'], screenFirst: true, img: IMG.svc1, tl: '25.4%', tt: 68, il: '36.8%', it: 20, iw: '44.6%', ih: 480, bh: 508 },
+  { num: 'Collection 02', lines: ['DÉCORATION', 'MURALE'], img: IMG.svc2, tl: '42.9%', tt: 96, il: '53.9%', it: 21, iw: '39.8%', ih: 430, bh: 461 },
+  { num: 'Collection 03', lines: ['OBJETS', "D'EXCEPTION"], img: IMG.svc3, tl: '14.9%', tt: 50, il: '22.4%', it: 13, iw: '39.4%', ih: 400, bh: 426 },
+  { num: 'Collection 04', lines: ['LUMINAIRES', '& LUMIÈRE'], img: IMG.svc4, tl: '36.5%', tt: 43, il: '46%', it: 24, iw: '33.5%', ih: 340, bh: 396 },
+  { num: 'Collection 05', lines: ['ART DE LA TABLE'], img: IMG.svc5, tl: '16.4%', tt: 98, il: '29.7%', it: 0, iw: '33.7%', ih: 420, bh: 447 },
 ]
 
 function Title({ num, lines, screenFirst }) {
@@ -109,8 +109,8 @@ export default function Services() {
     <section id="services" className="overflow-hidden bg-white py-24 lg:py-32">
       <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
         <SectionHead
-          eyebrow="Nos services"
-          heading="DE LA CONCEPTION A LA REALISATION, NOUS VOUS OFFRONS UNE EXPERIENCE FLUIDE"
+          eyebrow="Nos collections"
+          heading="DU MOBILIER AUX OBJETS D'EXCEPTION, NOUS COMPOSONS VOTRE ART DE VIVRE"
         />
 
         {/* Desktop: staggered parallax */}

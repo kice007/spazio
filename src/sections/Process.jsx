@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import SectionHead from '../components/SectionHead'
 
 const STEPS = [
-  ['01', 'Découverte & consultation', 'Nous découvrons votre espace, vos besoins et votre vision grâce à une consultation ciblée.'],
-  ['02', 'Concept & visualisation', "Nous explorons les mises en page, l'ambiance et le style pour définir l'orientation globale."],
-  ['03', 'Conception & développement', 'Nous peaufinons les détails, les matériaux et les finitions pour élaborer un plan de conception complet.'],
-  ['04', 'Exécution & livraison', "Nous coordonnons la réalisation afin que l'espace final soit fidèle à l'intention de conception."],
+  ['01', 'Découverte & inspiration', 'Nous cernons votre style, vos envies et votre espace pour vous orienter vers les bonnes pièces.'],
+  ['02', 'Sélection & conseil', 'Nous vous guidons parmi nos collections de mobilier, décoration et objets.'],
+  ['03', 'Composition & harmonie', 'Nous associons les pièces, les matières et les couleurs pour un ensemble cohérent.'],
+  ['04', 'Livraison & installation', 'Nous livrons et installons vos pièces pour un intérieur prêt à vivre.'],
 ]
 
 const EASE = [0.16, 1, 0.3, 1]
@@ -16,13 +16,13 @@ export default function Process() {
       <div className="mx-auto max-w-[1440px] px-6 lg:px-12">
         <SectionHead
           dark
-          eyebrow="Notre processus"
-          heading="NOTRE PROCESSUS, A LA FOIS STRUCTURE ET FLEXIBLE, GARANTIT LA REUSSITE DE CHAQUE PROJET"
+          eyebrow="Notre approche"
+          heading="NOTRE ACCOMPAGNEMENT, À LA FOIS SIMPLE ET ATTENTIONNÉ, SUBLIME CHAQUE INTÉRIEUR"
           width="lg:max-w-[894px]"
         />
 
         {/* Desktop: 4-column card */}
-        <div className="mt-16 hidden rounded-sm bg-[#151310] p-14 lg:grid lg:grid-cols-4 lg:gap-11">
+        <div className="mt-16 hidden rounded-sm bg-[#5c2e33] p-14 lg:grid lg:grid-cols-4 lg:gap-11">
           {STEPS.map(([n, t, d], i) => (
             <motion.div
               key={n}
@@ -43,7 +43,7 @@ export default function Process() {
         <div className="mt-12 lg:hidden">
           {STEPS.map(([n, t, d], i) => (
             <div key={n} style={{ zIndex: i }} className="sticky top-[88px] pb-6">
-              <div className="flex min-h-[300px] flex-col gap-5 rounded-xl bg-[#151310] p-8 shadow-[0_-12px_40px_rgba(0,0,0,0.6)] ring-1 ring-white/5">
+              <div className="flex min-h-[300px] flex-col gap-5 rounded-xl bg-[#5c2e33] p-8">
                 <span className="font-mono text-[30px] text-cream">{n}</span>
                 <h3 className="font-sans text-[24px] font-medium leading-tight text-cream">{t}</h3>
                 <p className="font-sans text-[15px] leading-relaxed text-muted2">{d}</p>

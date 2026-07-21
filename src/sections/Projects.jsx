@@ -67,8 +67,8 @@ export default function Projects() {
       <div className="mx-auto max-w-[1440px] px-6 pt-24 lg:px-12 lg:pt-32">
         <SectionHead
           dark
-          eyebrow="Nos projets"
-          heading="NOTRE PORTFOLIO MET EN VALEUR LA DIVERSITE DE NOTRE CREATIVITE"
+          eyebrow="Nos inspirations"
+          heading="NOS MISES EN SCÈNE RÉVÈLENT LA DIVERSITÉ DE NOTRE SÉLECTION"
           width="lg:max-w-[760px]"
         />
       </div>

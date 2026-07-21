@@ -6,7 +6,7 @@ import { ArrowDown } from '../components/Icons'
 const EASE = [0.16, 1, 0.3, 1]
 
 const BODY =
-  'Chez Spazio, nous concevons des intérieurs qui transcendent la simple décoration : des espaces qui racontent des histoires, façonnent des émotions et redéfinissent la manière dont les gens vivent, travaillent et tissent des liens.'
+  'Chez Alma, nous réunissons mobilier, décoration et objets uniques : une sélection pensée pour raconter des histoires, éveiller les émotions et sublimer la manière dont vous habitez vos espaces.'
 
 // Mobile: faithful reproduction of the "M1 Hero" mobile frame (390 × 810).
 // The content lives in a 390-wide reference block (centered on wider phones), so
@@ -25,7 +25,7 @@ function MobileHero() {
       {/* Full-bleed parallax background + tint (#0C0B0A73 ≈ black/45) */}
       <motion.div style={{ y: bgY, scale: bgScale }} className="absolute inset-0 will-change-transform">
         <img src={IMG.hero} alt="" className="h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-black/45" />
+        <div className="absolute inset-0 bg-[#000]/60" />
       </motion.div>
 
       {/* Wordmark on its own layer (sibling to the bg, no isolating ancestor) so
@@ -36,9 +36,9 @@ function MobileHero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: EASE, delay: 0.1 }}
-            className="absolute left-[44px] top-[150px] font-serif text-[80px] font-medium leading-none tracking-[-1px] text-cream mix-blend-color-dodge"
+            className="absolute left-[110px] top-[119px] font-serif text-[80px] font-medium leading-none tracking-[-1px] text-cream mix-blend-color-dodge"
           >
-            SPAZIO
+            alma
           </motion.h1>
         </div>
       </motion.div>
@@ -53,18 +53,18 @@ function MobileHero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: EASE, delay: 0.35 }}
-          className="absolute left-[30px] top-[300px] w-[330px] font-sans text-[15px] leading-[1.5] text-cream"
+          className="absolute left-[30px] top-[300px] w-[330px] text-center font-sans text-[15px] leading-[1.5] text-cream"
         >
           {BODY}
         </motion.p>
 
         {/* Inset — centered, y452, 238 × 210 */}
-        <div className="absolute left-1/2 top-[452px] -translate-x-1/2">
+        <div className="absolute left-1/2 top-[448px] -translate-x-1/2">
           <motion.div
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.1, ease: EASE, delay: 0.55 }}
-            className="h-[210px] w-[238px] overflow-hidden"
+            className="h-[248px] w-[238px] overflow-hidden"
           >
             <img src={IMG.heroInset} alt="" className="h-full w-full object-cover" />
           </motion.div>
@@ -101,7 +101,7 @@ function DesktopHero() {
       {/* Parallax background */}
       <motion.div style={{ y: bgY, scale: bgScale }} className="absolute inset-0 will-change-transform">
         <img src={IMG.hero} alt="" className="h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-black/45" />
+        <div className="absolute inset-0 bg-[#000]/60" />
       </motion.div>
 
       {/* Giant wordmark */}
@@ -112,7 +112,7 @@ function DesktopHero() {
           transition={{ duration: 1.2, ease: EASE, delay: 0.1 }}
           className="font-serif text-[clamp(88px,15vw,210px)] font-medium leading-none tracking-[-0.01em] text-cream mix-blend-color-dodge"
         >
-          SPAZIO
+          alma
         </motion.h1>
       </motion.div>
 
@@ -133,7 +133,7 @@ function DesktopHero() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.1, ease: EASE, delay: 0.6 }}
-        className="absolute bottom-0 left-1/2 h-[300px] w-[340px] -translate-x-1/2 overflow-hidden"
+        className="absolute bottom-0 left-1/2 h-[379px] w-[340px] -translate-x-1/2 overflow-hidden"
       >
         <img src={IMG.heroInset} alt="" className="h-full w-full object-cover" />
       </motion.div>
